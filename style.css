@@ -5,25 +5,35 @@
 
 #title {
   text-align: center;
+  pointer-events: none;
+  user-select: none;
 }
 
 .center {
   text-align: left;
+  pointer-events: none;
+  user-select: none;
 }
 
 .header-column {
   text-align: left;
   margin: 5px;
+  pointer-events: none;
+  user-select: none;
 }
 
 #profile-pic {
   text-align: center;
   width: 20%;
+  pointer-events: none;
+  user-select: none;
 }
 
 h1, h2, h3, li, p {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  pointer-events: none;
+  user-select: none;
 }
 
 p {
@@ -36,21 +46,28 @@ li {
 
 img {
   max-width: 95%;
+  pointer-events: none;
+  user-select: none;
 }
 
 #icon-header {
   max-width: 42px;
+  pointer-events: none;
+  user-select: none;
 }
 
 #icon {
   max-width: 32px;
+  pointer-events: none;
+  user-select: none;
 }
 
 #grid {
   display: flex;
   align-items: center;
   flex-flow: wrap;
-
+  pointer-events: none;
+  user-select: none;
 }
 
 #row {
@@ -58,6 +75,8 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  pointer-events: none;
+  user-select: none;
 }
 
 #column {
@@ -66,5 +85,8 @@ img {
   align-items:center;
   flex-basis: 100%;
   flex: 1;
+  pointer-events: none;
+  user-select: none;
 }
+
 
