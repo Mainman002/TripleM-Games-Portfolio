@@ -7,6 +7,15 @@
   text-align: center;
 }
 
+.center {
+  text-align: left;
+}
+
+.header-column {
+  text-align: left;
+  margin: 5px;
+}
+
 #profile-pic {
   text-align: center;
   width: 20%;
@@ -29,8 +38,12 @@ img {
   max-width: 95%;
 }
 
+#icon-header {
+  max-width: 42px;
+}
+
 #icon {
-  max-width: 5%;
+  max-width: 32px;
 }
 
 #grid {
@@ -50,6 +63,7 @@ img {
 #column {
   display: flex;
   flex-direction: column;
+  align-items:center;
   flex-basis: 100%;
   flex: 1;
 }
