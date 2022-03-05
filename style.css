@@ -1,0 +1,56 @@
+* {
+  /* background-color: rgb(57, 98, 124); */
+  background-color: black;
+}
+
+#title {
+  text-align: center;
+}
+
+#profile-pic {
+  text-align: center;
+  width: 20%;
+}
+
+h1, h2, h3, li, p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+p {
+  font-size: large;
+}
+
+li {
+  font-size: x-large;
+}
+
+img {
+  max-width: 95%;
+}
+
+#icon {
+  max-width: 5%;
+}
+
+#grid {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
