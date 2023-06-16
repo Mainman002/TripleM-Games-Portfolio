@@ -3,6 +3,37 @@
   background-color: black;
 }
 
+#topbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0%;
+  margin: 0%;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+#steam-embed {
+  position: relative;
+  padding-bottom: 190px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 646px;
+  height: 0;
+  overflow: hidden;
+  }
+  #steam-embed iframe,
+  #steam-embed object,
+  #steam-embed embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 646px;
+  height: 190px;
+}
+
 #title {
   text-align: center;
   pointer-events: none;
@@ -68,6 +99,13 @@ img {
   flex-flow: wrap;
   pointer-events: none;
   user-select: none;
+}
+
+#embed-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 #row {
